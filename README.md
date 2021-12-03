@@ -11,3 +11,17 @@ Output information happy case:
 -Plugin configuration[includeTestSourceDirectory]
 or
 maven-checkstyle-plugin not found
+
+
+<plugin>
+    <groupId>org.dnskind</groupId>
+    <artifactId>checker-of-checkstyle-plugin</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <executions>
+        <execution>
+            <goals>
+                <goal>check</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
